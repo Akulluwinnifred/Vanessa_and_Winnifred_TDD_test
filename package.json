@@ -1,0 +1,20 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "chai": "^5.1.1",
+    "eslint": "^9.6.0",
+    "mocha": "^10.6.0"
+  }
+}
