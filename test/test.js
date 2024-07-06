@@ -32,5 +32,15 @@ describe("multiplication" , function()
 
         expect(c).to.equal(9)
     })
+
+    //cycle 4
+    it("one multiply 4 is 4" , () =>{
+        var a = 4
+        var b = 4
+
+        var c = multiply(a,b)
+
+        expect(c).to.equal(16)
+    })
 }
 )
